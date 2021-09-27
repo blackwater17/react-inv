@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+html {
+  background: url("https://www.whatismymovie.com/blurredbackground29.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+img {
+  text-align: center;
+  margin: 30px auto;
+  display: block;
+  opacity: 1;
+  width: 20%;
+}
+
+.search-container {
+  display: block;
+  text-align: center;
+  margin: 20px auto 10px;
+}
+
+.search-container input {
+  margin: 0 7px;
+  font-size: 32px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  padding: 10px;
+  height: 2rem;
+  background: transparent;
+  color: #111;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: inline-block;
+}
+
+.search {
+  width: 33%;
+}
+
+.year {
+  width: 170px;
+  width: 18%;
+}
+
+#search-type {
+  width: 250px;
+  width: 18%;
+  margin: 0 7px;
+  font-size: 32px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  padding: 10px;
+  height: 66px;
+  height: 3.2rem;
+  background: transparent;
+  color: #111;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: inline-block;
+}
+
+.search-btn-container {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.search-btn-container #search-btn {
+  height: 3rem;
+  width: 10rem;
+  background: turquoise;
+  border-radius: 7px;
+  color: #eee;
+  border: none;
+  outline: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.search-btn-container #search-btn:active {
+  background: #111;
+  color: turquoise;
+}
+
+.pagination-container {
+  height: 37px;
+  min-width: 600px;
+  margin: 50px auto;
+  display: block;
+  text-align: center;
+}
+
+.pagination-container .pagination-box {
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-size: 0.7rem;
+  width: 37px;
+  height: 100%;
+  padding: 5px;
+  padding: 0.1rem;
+  margin: 0 10px;
+  color: grey;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  line-height: 2.3rem;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently */
+}
+
+.pagination-container .active-page {
+  background-color: grey;
+  color: white;
+}
+
+.data-container {
+  font-family: 'Roboto', sans-serif;
+  width: 82%;
+  margin: 20px auto;
+  font-size: 19px;
+}
+
+.data-container .rel-title {
+  color: #111;
+  font-size: 19px;
+  margin: 0 auto 10px;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  cursor: default;
+}
+
+.data-container .rel-title span {
+  color: #666666;
+}
+
+.data-container .poster {
+  margin: 0 auto 60px;
+  width: 20%;
+}
+
+.data-container li {
+  margin: 4px 0;
+  list-style: none;
+  border-bottom: 1px solid #aaa;
+  padding: 10px;
+}
+
+.data-container li span {
+  color: #666666;
+}
+
+.results-container {
+  width: 100%;
+  margin: 30px auto 40px;
+}
+
+.results-container .table-header {
+  padding: 0.8rem 0.3rem;
+  color: #111;
+  width: 70%;
+  border-bottom: 1px solid #d6d6d6;
+  margin: 16px auto;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+}
+
+.results-container .title-area {
+  width: 320px;
+  display: inline-block;
+}
+
+.results-container .title-area span {
+  cursor: pointer;
+}
+
+.results-container .title-area a {
+  text-decoration: none;
+  color: #656565;
+}
+
+.results-container .title-area a:hover {
+  color: #111;
+}
+
+.results-container .imdb-id-area {
+  display: inline-block;
+  width: 100px;
+  cursor: default;
+}
+
+.results-container .release-date {
+  display: inline-block;
+  width: 96px;
+  text-align: center;
+  cursor: default;
+}
+
+.results-container .type {
+  display: inline-block;
+  width: 96px;
+  text-align: center;
+  cursor: default;
+}
+
+.results-container .result {
+  padding: 0.8rem 0.3rem;
+  color: #111;
+  color: #656565;
+  width: 70%;
+  margin: 8px auto;
+  margin: 0.1rem auto;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #d6d6d6;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=styles.css.map */

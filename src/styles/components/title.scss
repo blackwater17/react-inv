@@ -1,0 +1,41 @@
+.data-container {
+
+    font-family: 'Roboto', sans-serif;
+    width: 82%;
+    margin: 20px auto;
+    font-size: 19px;
+
+    .rel-title {
+        color:#111;
+        font-size:19px;
+        margin: 0 auto 10px;
+        display: block;
+        font-weight: 400;
+        text-align: center;
+        cursor: default;
+
+        span {
+            color: rgb(102, 102, 102);
+        }
+    }
+
+
+
+    .poster {
+        margin: 0 auto 60px;
+        width:20%;
+    }
+
+    li {
+        margin: 4px 0;
+        list-style: none;
+        border-bottom: 1px solid #aaa;
+        padding:10px;
+
+        span {
+            color: rgb(102, 102, 102);
+        }
+
+
+    }
+}

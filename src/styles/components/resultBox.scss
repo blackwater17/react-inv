@@ -1,0 +1,99 @@
+.results-container {  
+    width: 100%;
+    margin: 30px auto 40px;
+  
+
+    .table-header {
+        //padding:16px 11px;
+        padding: 0.8rem 0.3rem;
+        color: #111;
+        width: 70%;
+        border-bottom: 1px solid rgb(214, 214, 214);                    
+        margin:16px auto;
+
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+
+      
+
+    }
+
+
+
+
+
+
+    .title-area {
+        width:320px;
+        display: inline-block;
+        span {
+            cursor:pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color:rgb(101, 101, 101);
+        }
+
+        a:hover {
+            color:#111;
+        }
+    }
+
+
+    .imdb-id-area {
+        display: inline-block;
+        width:100px;
+        cursor:default;
+    }
+
+    .release-date {
+        display:inline-block;
+        width: 96px;
+        text-align: center;
+        cursor:default;
+     
+    }
+
+    .type {
+        display:inline-block;
+        width: 96px;
+        text-align: center;
+        cursor:default;
+    }
+
+    
+
+
+
+
+    
+    .result {
+        //padding:16px 11px;
+
+        padding: 0.8rem 0.3rem;
+
+        color: #111;
+        color:rgb(101, 101, 101);
+        width: 70%;                  
+        margin:8px auto;
+        margin: 0.1rem auto;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(214, 214, 214);   
+
+        font-size:0.8rem;
+
+
+
+
+    }
+
+
+
+
+}
+

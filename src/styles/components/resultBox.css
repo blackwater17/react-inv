@@ -1,0 +1,77 @@
+.results-container {
+  width: 100%;
+  margin: 30px auto 40px;
+}
+
+.results-container .table-header {
+  padding: 0.8rem 0.3rem;
+  color: #111;
+  width: 70%;
+  border-bottom: 1px solid #d6d6d6;
+  margin: 16px auto;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+}
+
+.results-container .title-area {
+  width: 320px;
+  display: inline-block;
+}
+
+.results-container .title-area span {
+  cursor: pointer;
+}
+
+.results-container .title-area a {
+  text-decoration: none;
+  color: #656565;
+}
+
+.results-container .title-area a:hover {
+  color: #111;
+}
+
+.results-container .imdb-id-area {
+  display: inline-block;
+  width: 100px;
+  cursor: default;
+}
+
+.results-container .release-date {
+  display: inline-block;
+  width: 96px;
+  text-align: center;
+  cursor: default;
+}
+
+.results-container .type {
+  display: inline-block;
+  width: 96px;
+  text-align: center;
+  cursor: default;
+}
+
+.results-container .result {
+  padding: 0.8rem 0.3rem;
+  color: #111;
+  color: #656565;
+  width: 70%;
+  margin: 8px auto;
+  margin: 0.1rem auto;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #d6d6d6;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=resultBox.css.map */

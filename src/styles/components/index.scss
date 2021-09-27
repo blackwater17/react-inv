@@ -1,0 +1,139 @@
+
+img {
+
+    text-align: center;
+    margin:30px auto;
+    display: block;
+    opacity: 1;
+
+    width: 20%;
+}
+
+.search-container {
+    display: block;
+    text-align:center;
+    margin: 20px auto 10px;
+
+    input {
+
+        margin:0 7px;
+        font-size: 32px;
+        font-size:1.4rem;
+
+        border:none;
+        outline: none;
+        padding: 10px;
+        height: 2rem;
+        background: transparent;
+        color:#111;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: inline-block;
+
+    }
+
+}
+.search {
+    width:33%;
+}
+
+.year {
+    width:170px;
+    width:18%;
+}
+
+
+#search-type {
+    width:250px;
+    width: 18%;
+    margin:0 7px;
+    font-size: 32px;
+    font-size:1.4rem;
+
+    border:none;
+    outline: none;
+    padding: 10px;
+    height:66px;
+    height: 3.2rem;
+    background: transparent;
+    color:#111;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: inline-block;
+
+
+}
+
+
+.search-btn-container {
+
+    text-align: center;
+    margin: 50px 0;
+
+    #search-btn {
+
+        height: 3rem;
+        width: 10rem;
+        background: turquoise;
+        border-radius: 7px;
+        color:#eee;
+        border:none;
+        outline:none;
+        font-size:26px;
+        cursor:pointer;
+
+
+    }
+
+    #search-btn:active {
+        background: #111;
+        color:turquoise;
+    }
+
+}
+
+ 
+
+
+.pagination-container {
+
+    height: 37px;
+    min-width: 600px;
+    margin: 50px auto;
+    display: block;
+    text-align: center;
+  
+    
+
+    .pagination-box {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        //font-size: 15px;
+        font-size: 0.7rem;
+        width: 37px;
+        height: 100%;
+        padding: 5px;
+        padding: 0.1rem;
+        margin: 0 10px;
+        color: grey;
+        font-weight: bold;
+        font-family: 'Segoe UI';
+        line-height: 2.3rem;
+    
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+         -khtml-user-select: none; /* Konqueror HTML */
+           -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently */
+                
+    }
+
+    .active-page {
+        background-color: grey;
+        color: white;
+    }   
+
+
+}
+
+
